@@ -2,5 +2,7 @@ def hello_t(names)
   yield(names)
 end
 
-# call your method here!
+
+yield(3) {|array| puts names}
+
 
