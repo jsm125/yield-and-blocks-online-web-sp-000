@@ -1,5 +1,5 @@
-def hello_t(names) 
-  yield(names)
+def hello_t(names) hello_t(names) {|array| puts name}
+
 end
 
 
