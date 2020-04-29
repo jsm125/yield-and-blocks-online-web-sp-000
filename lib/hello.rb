@@ -3,6 +3,6 @@ def hello_t(names)
 end
 
 
-yield(3) {|array| puts names}
+hello_t(3) {|array| puts names}
 
 
