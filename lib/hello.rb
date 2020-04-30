@@ -1,5 +1,5 @@
 def hello_t(array)
-  [array].each do |name|
+  [array].eac   o |name|
   puts "#{name}"
   end
 end
